@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# .gz MNIST dataset compressed files are to be ignored. Only data is commited
+.gz
+
 # Distribution / packaging
 .Python
 build/
